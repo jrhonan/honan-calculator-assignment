@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Comparing grocery delivery during COVID</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Your styles should be called here -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+</head>
+
+<body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class='container'>
+        <h1>Millions of Americans still don't have internet access, according to a study by the FCC</h1>
+  <p class='byline'>By John Honan</p>
+    </div>
+    <div class='container image'>
+        <img src='images/header_photo.jpeg' />
+    </div>
+    <div class="container">
+      <p>We’ve all experienced a slow or weak internet connection. You're in the middle of a 3 hour online class or an important meeting on Zoom when the dreaded “Your internet connection is unstable” message pops up. You drop from the meeting and have to email your professor or boss to let him know your internet sucks. Yes, this exact scenario happened to me.</p>
+      <p>As familiar as this scenario may be to students and remote workers across America, many families are dealing with far worse internet connections. Some have no internet in their area at all. The FCC reported that 21.3 million Americans lack access to broadband internet, according to <a href="https://broadbandnow.com/research/fcc-underestimates-unserved-by-50-percent">Broadband Now.</a>
+        <p>Each person’s ideal internet speed is determined by their needs. For homes with 1-2 devices connected to the same internet connection, up to 25 mpbs should be fast enough to handle browsing Wikipedia, Instagram, send emails, and stream videos, <a href="https://www.tomsguide.com/us/internet-speed-what-you-need,news-24289.html">according to Tom’s Guide.</a> Anywhere from 50-100 mpbs will do the job for households with 3-5 devices using the home’s internet, while households with more than 5 devices will require 150 to 200 mpbs.  Families in situation 1 will probably most likely only need to pay for a DSL subscription which needs about 6 mpbs. Cable would be ideal for 3-5 device families and a fiber connection would work best for households with more than 5 devices.</p>
+  </div>
+  <div class="cal-container">
+        <div class="container">
+          <h2>Comparing internet prices by state</h2>
+          <p>Fiber optic internet provides the most cost effective option with cheaper prices in populus cities. However, fiber optic is not available across the United States. Texas is only 10.97% covered or about 2,958,351 Texans, according to <a href="https://broadbandnow.com/report/fiber-optic-availability-map/">Broadband Now.</a>
+          <div class="calculator">
+            <div class="row">
+              <div class="item">
+                <h3>Kansas</h3>
+                <img src="images/kansas.png">
+                <div class="qty_container">
+                  <div>
+                    <input type="number" name='qty' value="0"/>
+                  </div>
+                  <div class="unit">
+                    mpbs
+                  </div>
+                </div>
+              </div>
+                <div class="DSL" data-price="0.60"><strong>DSL</strong>: $<span></span></div>
+                 <div class="Cable" data-price="0.83"><strong>Cable</strong>: $<span></span></div>
+                 <div class="Fiber" data-price="0.50"><strong>Fiber</strong>: $<span></span></div>
+                 </div>
+                <div class="row">
+                 <div class="item">
+                      <h3>Oklahoma</h3>
+                      <img src="images/oklahoma.png">
+                    <div class="qty_container">
+                      <div>
+                        <input type="number" name='qty' value="0"/>
+                      </div>
+                      <div class="unit">
+                        mpbs
+                      </div>
+                    </div>
+                  </div>
+                  <div class="DSL" data-price="2.40"><strong>DSL</strong>: $<span></span></div>
+                   <div class="Cable" data-price="0.55"><strong>Cable</strong>: $<span></span></div>
+                   <div class="Fiber" data-price="0.50"><strong>Fiber</strong>: $<span></span></div>
+               </div>
+               <div class="row">
+              <div class='item'>
+              <h3>South Carolina</h3>
+              <img src="images/southcarolina.svg">
+              <div class="qty_container">
+                <div>
+                <input type="number" name='qty' value="0" />
+                </div>
+                <div class="unit">
+                    mpbs
+                </div>
+              </div>
+            </div>
+            <div class="DSL" data-price="1.83"><strong>DSL</strong>: $<span></span></div>
+             <div class="Cable" data-price="1.00"><strong>Cable</strong>: $<span></span></div>
+             <div class="Fiber" data-price="0.82"><strong>Fiber</strong>: $<span></span></div>
+           </div>
+           <div class="row">
+             <div class='item'>
+               <h3>New York</h3>
+               <img src="images/new-york-flag.jpeg">
+               <div class="qty_container">
+                 <div>
+                   <input type="number" name='qty' value="0"/>
+                 </div>
+                 <div class="unit">
+                   mpbs
+                 </div>
+               </div>
+             </div>
+             <div class="DSL" data-price="1.16"><strong>DSL</strong>: $<span></span></div>
+          <div class="Cable" data-price="0.83"><strong>Cable</strong>: $<span></span></div>
+          <div class="Fiber" data-price="0.10"><strong>Fiber</strong>: $<span></span></div>
+        </div>
+        <div class="row">
+          <div class='item'>
+            <h3>Texas</h3>
+            <img src="images/texas.png">
+            <div class='qty_container'>
+              <div>
+                <input type="number" name='qty' value="0"/>
+              </div>
+              <div class="unit">
+                mpbs
+              </div>
+            </div>
+          </div>
+          <div class="DSL" data-price="1.20"><strong>DSL</strong>: $<span></span></div>
+          <div class="Cable" data-price="0.12"><strong>Cable</strong>: $<span></span></div>
+          <div class="Fiber" data-price="0.33"><strong>Fiber</strong>: $<span></span></div>
+        </div>
+          <div class="row">
+          <div class='item'>
+              <h3>Pennsylvania</h3>
+              <img src="images/pennsylvania.svg">
+              <div class='qty_container'>
+                <div>
+                  <input type="number" name='qty' value="0"/>
+                </div>
+                <div class="unit">
+                  mpbs
+                </div>
+              </div>
+            </div>
+            <div class="DSL" data-price="1.80"><strong>DSL</strong>: $<span></span></div>
+            <div class="Cable" data-price="0.83"><strong>Cable</strong>: $<span></span></div>
+            <div class="Fiber" data-price="0.50"><strong>Fiber</strong>: $<span></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <script src="main.js"></script>
+      </body>
+      </html>
